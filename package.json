@@ -1,0 +1,40 @@
+{
+  "name": "angular-test-best-practices",
+  "version": "1.0.0",
+  "description": "This project contains different things to speed up Unit Test on Angular project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prelint": "tsc tslint/custom-rules/noTestBedForSpecificSpecRule",
+    "lint": "./node_modules/.bin/tslint ./src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/js-republic/angular-test-best-practices.git"
+  },
+  "keywords": [
+    "Angular",
+    "Unit",
+    "Testing",
+    "Speed",
+    "up"
+  ],
+  "author": "Mathieu Breton <mathieu.breton@js-republic.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-republic/angular-test-best-practices/issues"
+  },
+  "homepage": "https://github.com/js-republic/angular-test-best-practices#readme",
+  "devDependencies": {
+    "codelyzer": "^4.1.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "@angular/core": "^5.2.3",
+    "@angular/common": "^5.2.3",
+    "@angular/compiler": "^5.2.3",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
+  }
+}
